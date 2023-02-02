@@ -16,7 +16,7 @@ This assignment is contains two parts:
 HW1 serves as an outline for the remaining assignments in the course, building end-to-end ML pipelines and deploying useful web applications using those models. This assignment in particular focuses on the data exploration and preprocess. 
 
 <p align="center"> 
-<img src="./images/hw1_demo.gif" width="70%"> 
+<img src="./images/explore_data_hw1.gif" width="70%"> 
 <i>
 
 <b>Figure:</b> This shows a demonstration of the web application for End-to-End ML pipelines.
@@ -55,7 +55,7 @@ This should open up your browser, and you should see Jupyter's tree view, with t
 When you're done with Jupyter, you can close it by typing Ctrl-C in the Terminal window where you started it. Every time you want to work on this project, you will need to open a Terminal, and run:
 ```
 cd $HOME # or whatever development directory you chose earlier
-cd 1-paml-end-to-end-ml-pipeline
+cd homework1
 conda activate tf2
 jupyter notebook
 ```
@@ -65,7 +65,7 @@ I regularly update the notebooks to fix issues and add support for new libraries
 For this, open a terminal, and run:
 ```
 cd $HOME # or whatever development directory you chose earlier
-cd 0-paml-end-to-end-ml-pipeline # go to this project's directory
+cd homework1 # go to this project's directory
 git pull
 ```
 
@@ -95,8 +95,8 @@ jupyter notebook
 
 Open the files listed below and follow along in lecture to complete them:
 
-* End-to-end-ml-pipeline.ipynb: This is the example from the textbook on predicting housing prices. We will use this notebook to create an online ML end-to-end pipeline. We will focus on data collction and preprocessing steps.
-* End-to-end-ml-pipeline.py: HW1 assignment template using streamlit for web application UI and workflow of activties.
+* end-to-end-ml-pipeline.ipynb: This is the example from the textbook on predicting housing prices. We will use this notebook to create an online ML end-to-end pipeline. We will focus on data collction and preprocessing steps.
+* end-to-end-ml-pipeline.py: HW1 assignment template using streamlit for web application UI and workflow of activties.
 
 # 1. Build End-to-End ML Pipeline
 
@@ -125,7 +125,7 @@ df = pd.read_csv(data)
 
 <b>Figure:</b> This shows an example of adding a button to upload a dataset (Checkpoint 1).
 
-Next, explore dataset features using helper functions to summarize features in the dataset and visualize them on a plot (see figures below).
+Next, explore dataset features using helper functions to summarize features in the dataset and visualize them on a plot (see figures below). Provide the option to select one plot to display including Scatterplots, Lineplots, Histogram, and Boxplot using the Streamlit selectbox function. Once a plot has been selected, the visualization should update with the appropriate figure. Use the user_input_features function to collect filters for each figure and update the plot accordingly.
 
 <p align="center"> 
 <img src="./images/features_summary.png.png" width="70%"> 
