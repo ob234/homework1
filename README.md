@@ -15,7 +15,7 @@ This assignment is contains two parts:
 
 HW1 serves as an outline for the remaining assignments in the course, building end-to-end ML pipelines and deploying useful web applications using those models. This assignment in particular focuses on the data exploration and preprocess. 
 
-* <b>Due</b>:  Monday February 16, 2023 at 5:00PM 
+* <b>Due</b>:  Friday February 17, 2023 at 11:00PM 
 * <b>What to turn in</b>: Submit responses on GitHub AutoGrader
 * <b>Assignment Type</b>: Individual
 * <b>Time Estimate</b>: 9 Hours
